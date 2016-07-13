@@ -1,0 +1,66 @@
+.thumbnail img {
+  max-height: 125px;
+  margin-top: 15px;
+}
+
+#searchbox {
+  margin-bottom: 25px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #156485;
+}
+
+#searchbox img {
+  max-height: 60px;
+  max-width: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 25px;
+}
+
+.pic-space {
+  width: 80px;
+}
+
+.big-name {
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.side-price {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.algolia-autocomplete {
+  width: 100%;
+}
+
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 100%;
+  min-height: 30px;
+  margin-top: 11px;
+  text-indent: 10px;
+}
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-top: none;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #B2D7FF;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
